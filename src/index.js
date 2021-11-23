@@ -7,7 +7,7 @@ import Home from './pages/Home';
 ReactDOM.render(
   <div className="main__wrapper">
     <div className="main__container">
-      <Header/>
+      <Header city="São Paulo" state="SP" />
       <Home />
     </div>
   </div>
